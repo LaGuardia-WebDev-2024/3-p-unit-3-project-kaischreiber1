@@ -1,12 +1,12 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[ done ] Two External Links
+[  done] Table
+[ done ] Three CSS Rules
+[  done] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[done ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -14,47 +14,116 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: rgb(255, 224, 241);
+      }
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+      h1 {
+        color: rgb(255, 255, 255);
+      }
+      h1:hover {
+        background-color: rgb(174, 210, 255);
+      }
 
-<body>
+      p {
+        color: rgb(255, 255, 255);
+      }
+      p:hover {
+        background-color: rgb(174, 210, 255);
+      }
+      th {
+        width: 200px;
+      }
 
-  <h1>____'s Recipe Book</h1>
+      th {
+        color: rgb(255, 255, 255);
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      table {
+        color: rgb(255, 255, 255);
+      }
+      a {
+        color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
 
-  <h2>Contents:</h2>
+  <body>
+    <h1>Kai's Hanukkah Wishlist</h1>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <p>
+      <strong
+        >Winter holidays are some of my favorite times of the year. I love
+        recieving presents. This is my 2024 Hanukkah wishlist!
+      </strong>
+    </p>
 
-  <h2 id="?">Recipe #1</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Presents</th>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+          <th>Price</th>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
-
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+          <th>Link</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img
+              src="https://www.vancleefarpels.com/content/dam/rcq/vca/2l/BZ/wZ/IW/LU/KT/lh/_j/cx/ZQ/iA/2lBZwZIWLUKTlh_jcxZQiA.png"
+              width="200"
+            />
+          </td>
+          <td>$2,830</td>
+          <td>
+            <a
+              href="https://www.vancleefarpels.com/us/en/collections/jewelry/alhambra/vcara45900---vintage-alhambra-pendant.html?&mid=793f1p4799&mkwid=s_dc&pcrid=522813558171&kword=&match=&plid=&gad_source=1&gclid=EAIaIQobChMImoD-5IWiiQMVvkn_AR32mhpEEAQYASABEgLEyvD_BwE&gclsrc=aw.ds"
+            >
+              Van Cleef &amp Arpels
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://www.restockify.com/wp-content/uploads/dyson-airwrap-styler.png"
+              width="200"
+            />
+          </td>
+          <td>$600</td>
+          <td>
+            <a
+              href="https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/hero-locale/en_US/560790-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960"
+            >
+              Dyson
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="https://cdn.glitch.global/43a0e91e-8dfb-47ba-b41c-196dcd893097/image-removebg-preview.png?v=1729689676651"
+              width="200"
+            />
+          </td>
+          <td>$468</td>
+          <td>
+            <a href="https://paulwarmer.com/products/isabelmarant-bobby-brown">
+              Isabel Marant
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
